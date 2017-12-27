@@ -70,7 +70,7 @@
 ## iOS
 
 ```
-open scripts/ios/lightning/lightning.xcodeproj
+open build-ios/lightning/lightning.xcodeproj
 ```
 
 - 使用 xcode 进行编译，生成 .a 静态库
