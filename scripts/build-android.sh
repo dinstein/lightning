@@ -20,7 +20,7 @@ fi
 
 # CMAKE_DIRECTORY
 if [ -z "${CMAKE_DIRECTORY}" ];then
-    CMAKE_DIRECTORY="/build-tools/cmake-3.6.3155560"
+    CMAKE_DIRECTORY="/build-tools/cmake"
     # download url:
     # https://dl.google.com/android/repository/cmake-3.6.3155560-linux-x86_64.zip
     # https://dl.google.com/android/repository/cmake-3.6.3155560-darwin-x86_64.zip

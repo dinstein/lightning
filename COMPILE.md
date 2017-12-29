@@ -26,9 +26,11 @@
 
 - 输出动态库在 output/win 目录下
 
-## Linux
+## Linux(Ubuntu)
 
 ```
+apt-get update && apt-get install cmake clang
+
 ./scripts/build-linux.sh
 ```
 
@@ -51,8 +53,8 @@
     - https://dl.google.com/android/repository/cmake-3.6.3155560-darwin-x86_64.zip
     - https://dl.google.com/android/repository/cmake-3.6.3155560-windows-x86_64.zip
 - 设置环境变量，指定 NDK 和 cmake 文件夹目录，默认值如下
-    - CMAKE_DIRECTORY="/build-tools/cmake-3.6.3155560"
-    - NDK_DIRECTORY="/build-tools/android-ndk-r15c"
+    - CMAKE_DIRECTORY="/build-tools/cmake"
+    - NDK_DIRECTORY="/build-tools/android-ndk"
 - 编译指定架构的动态库
 
 ```
